@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E6111D3B1D45D2EC00FBD929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D3A1D45D2EC00FBD929 /* AppDelegate.swift */; };
-		E6111D3D1D45D2EC00FBD929 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D3C1D45D2EC00FBD929 /* ViewController.swift */; };
+		E6111D3D1D45D2EC00FBD929 /* ShowSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D3C1D45D2EC00FBD929 /* ShowSongsViewController.swift */; };
 		E6111D401D45D2EC00FBD929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6111D3E1D45D2EC00FBD929 /* Main.storyboard */; };
 		E6111D421D45D2EC00FBD929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6111D411D45D2EC00FBD929 /* Assets.xcassets */; };
 		E6111D451D45D2EC00FBD929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6111D431D45D2EC00FBD929 /* LaunchScreen.storyboard */; };
 		E6111D501D45D2EC00FBD929 /* ITunesAudioPlayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D4F1D45D2EC00FBD929 /* ITunesAudioPlayerAppTests.swift */; };
 		E6111D5B1D45D2EC00FBD929 /* ITunesAudioPlayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D5A1D45D2EC00FBD929 /* ITunesAudioPlayerAppUITests.swift */; };
+		E6111D6B1D45D4E500FBD929 /* Stop-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E6111D681D45D4E500FBD929 /* Stop-50.png */; };
+		E6111D6C1D45D4E500FBD929 /* Play-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E6111D691D45D4E500FBD929 /* Play-50.png */; };
+		E6111D6D1D45D4E500FBD929 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = E6111D6A1D45D4E500FBD929 /* music.png */; };
+		E6111D6F1D45D55D00FBD929 /* ShowSongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D6E1D45D55D00FBD929 /* ShowSongsTableViewCell.swift */; };
+		E6111D711D45D57A00FBD929 /* ShowSongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D701D45D57A00FBD929 /* ShowSongsViewModel.swift */; };
+		E6111D731D45D58A00FBD929 /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D721D45D58A00FBD929 /* SongModel.swift */; };
+		E6111D751D45D59700FBD929 /* UrlConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6111D741D45D59700FBD929 /* UrlConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		E6111D371D45D2EC00FBD929 /* ITunesAudioPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITunesAudioPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6111D3A1D45D2EC00FBD929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6111D3C1D45D2EC00FBD929 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6111D3C1D45D2EC00FBD929 /* ShowSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSongsViewController.swift; sourceTree = "<group>"; };
 		E6111D3F1D45D2EC00FBD929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6111D411D45D2EC00FBD929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6111D441D45D2EC00FBD929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		E6111D561D45D2EC00FBD929 /* ITunesAudioPlayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITunesAudioPlayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6111D5A1D45D2EC00FBD929 /* ITunesAudioPlayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAudioPlayerAppUITests.swift; sourceTree = "<group>"; };
 		E6111D5C1D45D2EC00FBD929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6111D681D45D4E500FBD929 /* Stop-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stop-50.png"; sourceTree = "<group>"; };
+		E6111D691D45D4E500FBD929 /* Play-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-50.png"; sourceTree = "<group>"; };
+		E6111D6A1D45D4E500FBD929 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		E6111D6E1D45D55D00FBD929 /* ShowSongsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSongsTableViewCell.swift; sourceTree = "<group>"; };
+		E6111D701D45D57A00FBD929 /* ShowSongsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSongsViewModel.swift; sourceTree = "<group>"; };
+		E6111D721D45D58A00FBD929 /* SongModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		E6111D741D45D59700FBD929 /* UrlConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,17 @@
 		E6111D391D45D2EC00FBD929 /* ITunesAudioPlayerApp */ = {
 			isa = PBXGroup;
 			children = (
+				E6111D761D45D5C900FBD929 /* Images */,
 				E6111D3A1D45D2EC00FBD929 /* AppDelegate.swift */,
-				E6111D3C1D45D2EC00FBD929 /* ViewController.swift */,
+				E6111D3C1D45D2EC00FBD929 /* ShowSongsViewController.swift */,
+				E6111D6E1D45D55D00FBD929 /* ShowSongsTableViewCell.swift */,
 				E6111D3E1D45D2EC00FBD929 /* Main.storyboard */,
 				E6111D411D45D2EC00FBD929 /* Assets.xcassets */,
 				E6111D431D45D2EC00FBD929 /* LaunchScreen.storyboard */,
 				E6111D461D45D2EC00FBD929 /* Info.plist */,
+				E6111D701D45D57A00FBD929 /* ShowSongsViewModel.swift */,
+				E6111D721D45D58A00FBD929 /* SongModel.swift */,
+				E6111D741D45D59700FBD929 /* UrlConstant.swift */,
 			);
 			path = ITunesAudioPlayerApp;
 			sourceTree = "<group>";
@@ -123,6 +142,16 @@
 				E6111D5C1D45D2EC00FBD929 /* Info.plist */,
 			);
 			path = ITunesAudioPlayerAppUITests;
+			sourceTree = "<group>";
+		};
+		E6111D761D45D5C900FBD929 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6111D681D45D4E500FBD929 /* Stop-50.png */,
+				E6111D691D45D4E500FBD929 /* Play-50.png */,
+				E6111D6A1D45D4E500FBD929 /* music.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +260,10 @@
 			files = (
 				E6111D451D45D2EC00FBD929 /* LaunchScreen.storyboard in Resources */,
 				E6111D421D45D2EC00FBD929 /* Assets.xcassets in Resources */,
+				E6111D6B1D45D4E500FBD929 /* Stop-50.png in Resources */,
+				E6111D6C1D45D4E500FBD929 /* Play-50.png in Resources */,
 				E6111D401D45D2EC00FBD929 /* Main.storyboard in Resources */,
+				E6111D6D1D45D4E500FBD929 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6111D3D1D45D2EC00FBD929 /* ViewController.swift in Sources */,
+				E6111D3D1D45D2EC00FBD929 /* ShowSongsViewController.swift in Sources */,
+				E6111D731D45D58A00FBD929 /* SongModel.swift in Sources */,
 				E6111D3B1D45D2EC00FBD929 /* AppDelegate.swift in Sources */,
+				E6111D751D45D59700FBD929 /* UrlConstant.swift in Sources */,
+				E6111D711D45D57A00FBD929 /* ShowSongsViewModel.swift in Sources */,
+				E6111D6F1D45D55D00FBD929 /* ShowSongsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
